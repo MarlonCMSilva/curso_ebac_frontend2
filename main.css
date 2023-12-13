@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    background-color: #ebf0f7;
+}
+
+header{
+    padding: 16px, 0;
+    color: #000;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header button{
+    margin-left: 16px;
+}
+
+button{
+    background-color: #4c504d;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+form{
+    padding: 24px 0;
+    text-align: center;
+}
+
+input, button{
+    padding: 8px 10px;
+}
+
+ul li{
+    padding: 10px;
+}
+
+ul li a{
+    font-weight: bold;
+    color: #2e2d2d;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.item{
+    text-decoration: line-through;
+}
